@@ -1,0 +1,23 @@
+{
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "project",
+  "workspaceFolder": "/home/user/project",
+  "remoteUser": "user",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "[rust]": {
+          "editor.defaultFormatter": "rust-lang.rust-analyzer",
+          "editor.formatOnSave": true
+        }
+      },
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "serayuzgur.crates",
+        "swellaby.vscode-rust-test-adapter",
+        "ms-vscode.test-adapter-converter"
+      ]
+    }
+  }
+}
